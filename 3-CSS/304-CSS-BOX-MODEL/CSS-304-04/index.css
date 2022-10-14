@@ -1,1 +1,33 @@
 /* start your css here */
+body{
+    font-family: sans-serif;
+}
+div{
+    display: inline-block;
+}
+header{
+    background-color: black;
+    color: whitesmoke;
+    height: 57px;
+    width: 57%
+}
+p{
+    margin-left: 48px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+    color: rgba(188, 182, 196, 0.7);
+    margin-left: 40px;
+    font-size: 17px;
+    padding-top: 20px;
+}
+
+i{
+    color:  rgb(232, 229, 229);
+    margin-left: 20px;
+}
+.icon{
+    margin-left: 17px;
+}

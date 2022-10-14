@@ -1,1 +1,104 @@
 /* start your styling here  */
+*{
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 10px auto;
+    background-color: rgb(240, 237, 237);
+}
+
+.main{
+    padding: 10px;
+    display: flex;
+    height: 500px;
+}
+.item-1{
+    background-color: rgba(227, 121, 9, 0.717);
+    border-radius: 20px 0 0 20px;
+}
+
+.item-2{
+    background-color: rgba(60, 95, 83, 0.852);
+}
+.item-3{
+    background-color: rgb(31, 70, 57);
+    border-radius: 0px 20px 20px 0px;
+}
+
+.img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.img1{
+    background-color:rgba(89, 57, 22, 0.717);
+     
+}
+.img2{
+    background-color: rgba(39, 62, 54, 0.852);
+    color:rgba(39, 62, 54, 0.852);
+}
+.img3{
+    background-color:rgb(12, 34, 27);
+    color:rgb(12, 34, 27);
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 30px;
+}
+i{
+    width: 400px;
+    font-size: 25px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.fa-car-side{
+    color: rgb(227, 122, 9);
+}
+.fa-sharp{
+    color: rgb(60, 95, 83);
+}
+.cl{
+    color: rgb(39, 95, 76);
+}
+
+.btn{
+    padding: 12px 20px;
+    border-radius: 35px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn-1{
+    color: rgba(227, 121, 9, 0.717);
+}
+
+.btn-2{
+ color: rgba(60, 95, 83, 0.852);
+}
+
+.btn-3{
+    color: rgb(31, 70, 57);
+}
+
+.btn-1:hover{
+    background-color: rgb(110, 60, 7);
+    color: whitesmoke;
+}
+.btn-2:hover{
+    background-color: rgba(19, 40, 32, 0.852);
+    color: whitesmoke;
+}
+.btn-3:hover{
+    background-color: rgba(137, 254, 209, 0.852);
+    color: whitesmoke;
+}
