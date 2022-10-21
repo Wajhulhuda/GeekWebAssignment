@@ -1,12 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>linkedin</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <!-- start your code here -->
-</body>
+    <div class="container">
+      <header>
+        <div class="logo">
+          <img
+            src="../images/linkedin.png"
+            alt="linkedin"
+            width="200"
+            height="100"
+          />
+        </div>
+        <div class="nav">
+          <div class="item discover">
+            <i class="fa-solid fa-compass"></i>
+            <a href="#">Discover</a>
+          </div>
+
+          <div class="item people">
+            <i class="fa-solid fa-user-group"></i>
+            <a href="#">People</a>
+          </div>
+
+          <div class="item learning">
+            <i class="fa-brands fa-youtube"></i>
+            <a href="#">Learning</a>
+          </div>
+
+          <div class="item jobs">
+            <i class="fa-sharp fa-solid fa-briefcase"></i>
+            <a href="#">Jobs</a>
+          </div>
+
+          <div class="item empty"></div>
+
+          <div class="item join">
+            <a href="#">Join now</a>
+          </div>
+
+          <div class="item">
+            <button>Sign in</button>
+          </div>
+        </div>
+      </header>
+    </div>
+
+    <main>
+      <div class="left">
+        <p class="com">Join the biggest professional commmunity</p>
+        <div class="formdiv">
+          <form action="">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+            /><br />
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Password(8+ characters)"
+            />
+            <p class="policy">
+              By clicking agree and join, you agree to the Linkedin
+              <a href="#">User Agreement Privacy Policy</a> and
+              <a href="#">Cookie Policy</a>.
+            </p>
+            <button>Agree & Join</button>
+          </form>
+
+          <div class="line">
+            <div class="sLeft"></div>
+            <div class="or"><p>or</p></div>
+            <div class="sRight"></div>
+          </div>
+
+          <p class="already">Already on Linkedin? <a href="#">Sign in</a></p>
+        </div>
+      </div>
+      <div class="right">
+        <img src="../images/investor-pitch.jpg" alt="professional" />
+      </div>
+    </main>
+  </body>
 </html>

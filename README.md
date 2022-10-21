@@ -11,17 +11,17 @@ How to use this repository
 
 # Git
 
-| S No. | Topic | Assignment                                   | Hosted Link |
-| ----- | ----- | -------------------------------------------- | ----------- |
-| 1     | GIT   | [COMMAND LINE](./0-Git/GIT-001-COMMANDLINE/) | NA          |
-| 2     | GIT   | [GIT-002-01](./0-Git/GIT-002-GIT-PRACTICE/)  |             |
-| 2     | GIT   | [GIT-002-02](./0-Git/GIT-002-GIT-PRACTICE/)  |             |
+| S No. | Topic | Assignment                                   | Hosted Link                                               |
+| ----- | ----- | -------------------------------------------- | --------------------------------------------------------- |
+| 1     | GIT   | [COMMAND LINE](./0-Git/GIT-001-COMMANDLINE/) | NA                                                        |
+| 2     | GIT   | [GIT-002-01](./0-Git/GIT-002-GIT-PRACTICE/)  | https://wajhulhuda.github.io/Wajhul-Huda/second.txt       |
+| 2     | GIT   | [GIT-002-02](./0-Git/GIT-002-GIT-PRACTICE/)  | https://wajhulhuda.github.io/very-basic-resume/index.html |
 
 # JS Basics
 
-| S No. | Topic     | Assignment                               | FreeCodeCamp Id | Question Done Till Now |
-| ----- | --------- | ---------------------------------------- | --------------- | ---------------------- |
-| 1     | JS Basics | [JS BASIC Question List](./1-JS-BASICS/) |                 |                        |
+| S No. | Topic     | Assignment                               | FreeCodeCamp Id                          | Question Done Till Now |
+| ----- | --------- | ---------------------------------------- | ---------------------------------------- | ---------------------- |
+| 1     | JS Basics | [JS BASIC Question List](./1-JS-BASICS/) | @fcc561e8415-bbd6-4539-bf03-ac01f1fbd3a4 | 125                    |
 
 # HTML
 
