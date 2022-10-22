@@ -1,1 +1,74 @@
 /* start your styling here  */
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin: 0;
+    padding: 0;
+    font-size: 35px;
+    font-weight: 900;
+}
+.container{
+    width: 40%;
+    margin: 50px auto;
+}
+.items{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.item1 button{
+    padding: 5px 15px;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 600;
+}
+.item1 button:hover{
+    color: whitesmoke;
+}
+.succ{
+    border: 2px solid #198754;;
+    color: #198754;
+}
+.succ:hover{
+    background-color:#198754 ;
+}
+
+.inf{
+    border: 2px solid #0dcaf0;;
+    color: #0dcaf0;
+}
+
+.inf:hover{
+    background-color:#0dcaf0 ;
+}
+
+.warn{
+    border: 2px solid #fd7e14;;
+    color: #fd7e14;
+}
+.warn:hover{
+    background-color:#fd7e14 ;
+}
+.dan{
+    border: 2px solid #dc3545;;
+    color: #dc3545;
+}
+
+.dan:hover{
+    background-color:#dc3545 ;
+}
+
+
+
+.def{
+    border: 2px solid #adb5bd;;
+    color: black;
+}
+
+.def:hover{
+    background-color:#adb5bd ;
+    color: black;
+}

@@ -1,1 +1,63 @@
 /* start your styling here  */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 40%;
+    margin: 10px auto;
+}
+
+.item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+
+h2{
+    margin: 0;
+    padding: 0;
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.item2 button{
+    padding: 15px 25px;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 600;
+    color: whitesmoke;
+    background-color: rgb(243, 79, 8);
+    border: none;
+}
+
+.links1, .links2{
+    background-color: rgb(205, 202, 202);
+    padding: 20px;
+    display: flex;
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: space-around;
+}
+.links1 a, .links2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    line-height: 35px;
+}
+.links1 a:hover, .links2 a:hover{
+    color: rgb(20, 20, 173);
+}
+
+.btn1:hover + .links1{
+    display: flex;
+}
+
+.btn2:hover + .links2{
+    display: flex;
+}
