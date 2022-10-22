@@ -25,12 +25,12 @@ How to use this repository
 
 # HTML
 
-| S No. | Topic | Assignment                                                         | Hosted Link                                                                                                |
-| ----- | ----- | ------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------- |
-| 1     | HTML  | [HTML RESUME](./2-HTML/201-HTML-RESUME) HTML-201-01                | https://wajhulhuda.github.io/GeekWebAssignment/2-HTML/201-HTML-RESUME/HTML-201-01/index.html               |
-| 2     | HTML  | [HTML FORM](./2-HTML/202-HTML-FORM/) HTML-202-01                   | https://wajhulhuda.github.io/GeekWebAssignment/2-HTML/202-HTML-FORM/HTML-202-02-Form/index.html            |
-| 3     | HTML  | [HTML PHOTO CAT APP](./2-HTML/203-HTML-Photo-Cat-App/) HTML-203-01 | https://wajhulhuda.github.io/GeekWebAssignment/2-HTML/203-HTML-Photo-Cat-App/HTML-203-01-CatApp/index.html |
-| 4     | HTML  | [HTML TRIBUTE PAGE](./2-HTML/204-HTML-TRIBUTE-PAGE/) HTML-204-01   |                                                                                                            |
+| S No. | Topic | Assignment                                                         | Hosted Link                                                                                                    |
+| ----- | ----- | ------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------- |
+| 1     | HTML  | [HTML RESUME](./2-HTML/201-HTML-RESUME) HTML-201-01                | https://wajhulhuda.github.io/GeekWebAssignment/2-HTML/201-HTML-RESUME/HTML-201-01/index.html                   |
+| 2     | HTML  | [HTML FORM](./2-HTML/202-HTML-FORM/) HTML-202-01                   | https://wajhulhuda.github.io/GeekWebAssignment/2-HTML/202-HTML-FORM/HTML-202-02-Form/index.html                |
+| 3     | HTML  | [HTML PHOTO CAT APP](./2-HTML/203-HTML-Photo-Cat-App/) HTML-203-01 | https://wajhulhuda.github.io/GeekWebAssignment/2-HTML/203-HTML-Photo-Cat-App/HTML-203-01-CatApp/index.html     |
+| 4     | HTML  | [HTML TRIBUTE PAGE](./2-HTML/204-HTML-TRIBUTE-PAGE/) HTML-204-01   | https://wajhulhuda.github.io/GeekWebAssignment/2-HTML/204-HTML-TRIBUTE-PAGE/HTML-204-02-TributePage/index.html |
 
 # CSS
 
@@ -48,15 +48,15 @@ How to use this repository
 | 5     | CSS   | [CSS-FLEXBOX](./3-CSS/305-CSS-Flexbox/) [CSS-305-03]                       | https://wajhulhuda.github.io/GeekWebAssignment/3-CSS/305-CSS-Flexbox/CSS-305-03/index.html            |
 | 5     | CSS   | [CSS-FLEXBOX](./3-CSS/305-CSS-Flexbox/) [CSS-305-04]                       | https://wajhulhuda.github.io/GeekWebAssignment/3-CSS/305-CSS-Flexbox/CSS-305-04/index.html            |
 | 5     | CSS   | [CSS-FLEXBOX](./3-CSS/305-CSS-Flexbox/) [CSS-305-05]                       | https://wajhulhuda.github.io/GeekWebAssignment/3-CSS/305-CSS-Flexbox/CSS-305-05/index.html            |
-| 5     | CSS   | [CSS-FLEXBOX](./3-CSS/305-CSS-Flexbox/) [CSS-305-06]                       |                                                                                                       |
-| 6     | CSS   | [CSS-GRID](./3-CSS/306-CSS-Grid/) [CSS-306-01]                             |                                                                                                       |
-| 6     | CSS   | [CSS-GRID](./3-CSS/306-CSS-Grid/) [CSS-306-02]                             |                                                                                                       |
-| 6     | CSS   | [CSS-GRID](./3-CSS/306-CSS-Grid/) [CSS-306-03]                             |                                                                                                       |
-| 7     | CSS   | [CSS-SELECTORS](./3-CSS/307-Advance-CSS-Selectors/) [CSS-307-01]           |                                                                                                       |
-| 8     | CSS   | [CSS-PSEUDO-CLASSES](./3-CSS/308-CSS-Pseudo-Classes/) [CSS-308-01]         |                                                                                                       |
-| 8     | CSS   | [CSS-PSEUDO-CLASSES](./3-CSS/308-CSS-Pseudo-Classes/) [CSS-308-02]         |                                                                                                       |
-| 8     | CSS   | [CSS-PSEUDO-CLASSES](./3-CSS/308-CSS-Pseudo-Classes/) [CSS-308-03]         |                                                                                                       |
-| 9     | CSS   | [CSS-PSEUDO-ELEMETS](./3-CSS/309-CSS-Pseudo-Elements/) [CSS-309-01]        |                                                                                                       |
+| 5     | CSS   | [CSS-FLEXBOX](./3-CSS/305-CSS-Flexbox/) [CSS-305-06]                       | https://wajhulhuda.github.io/GeekWebAssignment/3-CSS/305-CSS-Flexbox/CSS-305-06/index.html            |
+| 6     | CSS   | [CSS-GRID](./3-CSS/306-CSS-Grid/) [CSS-306-01]                             | https://wajhulhuda.github.io/GeekWebAssignment/3-CSS/306-CSS-Grid/CSS-306-01/index.html               |
+| 6     | CSS   | [CSS-GRID](./3-CSS/306-CSS-Grid/) [CSS-306-02]                             | https://wajhulhuda.github.io/GeekWebAssignment/3-CSS/306-CSS-Grid/CSS-306-02/index.html               |
+| 6     | CSS   | [CSS-GRID](./3-CSS/306-CSS-Grid/) [CSS-306-03]                             | https://wajhulhuda.github.io/GeekWebAssignment/3-CSS/306-CSS-Grid/CSS-306-03/index.html               |
+| 7     | CSS   | [CSS-SELECTORS](./3-CSS/307-Advance-CSS-Selectors/) [CSS-307-01]           | https://wajhulhuda.github.io/GeekWebAssignment/3-CSS/307-Advance-CSS-Selectors/CSS-307-01/index.html  |
+| 8     | CSS   | [CSS-PSEUDO-CLASSES](./3-CSS/308-CSS-Pseudo-Classes/) [CSS-308-01]         | https://wajhulhuda.github.io/GeekWebAssignment/3-CSS/308-CSS-Pseudo-Classes/CSS-308-01/index.html     |
+| 8     | CSS   | [CSS-PSEUDO-CLASSES](./3-CSS/308-CSS-Pseudo-Classes/) [CSS-308-02]         | https://wajhulhuda.github.io/GeekWebAssignment/3-CSS/308-CSS-Pseudo-Classes/CSS-308-02/index.html     |
+| 8     | CSS   | [CSS-PSEUDO-CLASSES](./3-CSS/308-CSS-Pseudo-Classes/) [CSS-308-03]         | https://wajhulhuda.github.io/GeekWebAssignment/3-CSS/308-CSS-Pseudo-Classes/CSS-308-03/index.html     |
+| 9     | CSS   | [CSS-PSEUDO-ELEMETS](./3-CSS/309-CSS-Pseudo-Elements/) [CSS-309-01]        | https://wajhulhuda.github.io/GeekWebAssignment/3-CSS/309-CSS-Pseudo-Elements/CSS-309-01/index.html    |
 | 10    | CSS   | [CSS-FINAL-PROJECTS](./3-CSS/310-Final-MCT-Projects/) [CSS-310-01]         |                                                                                                       |
 
 # ADVANCED-JS
