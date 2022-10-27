@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width:10%;
+    margin: 10px auto;
+
+}
+.container .item{
+    margin-bottom: 5px;
+    border: 2px solid black;
+    text-align: center;
+    padding: 2px 5px;
+    font-size: 20px;
+}

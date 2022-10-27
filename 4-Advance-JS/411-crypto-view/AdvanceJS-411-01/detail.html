@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Crypto-view</title>
     <link rel="stylesheet" href="./Assets/css/common.css" />
-    <link rel="stylesheet" href="./Assets/css/index.css" />
+    <link rel="stylesheet" href="./Assets/css/detail.css" />
     <link rel="shortcut icon" href="../image/logo.png" type="image/png" />
   </head>
   <body>
@@ -16,31 +16,25 @@
       <button class="f-right nav-button" id="nav-search-button">Search</button>
     </nav>
 
-    <section>
-      <div class="container mt-5">
-        <div class="flex-container">
-          <div class="flex-item">
-            <div class="ml-10">
-              <h1>CryptoView</h1>
-              <p>
-                A platform to view information about all cryptocurrencies live.
-              </p>
-            </div>
-          </div>
-          <div class="flex-item">
-            <img
-              src="../image/crypto-removebg-preview.png"
-              alt="cryptoImage"
-              class="main-img"
-            />
-          </div>
+    <section class="flex-container">
+      <img src="" id="coin-logo" alt="logo" class="main-img" />
+      <div class="main-contents">
+        <h1 class="mb-1 color-yellow" id="coin-name">...</h1>
+        <div class="flex-container space-around mt-1 mb-1">
+          <p>₹ <span id="inr-price">...</span></p>
+          <p>$ <span id="usd-price">...</span></p>
+          <p>€ <span id="eur-price">...</span></p>
+          <p>£ <span id="gbp-price">...</span></p>
         </div>
+
+        <h3 class="mt-1">Description:</h3>
+        <p id="coin-description">...</p>
       </div>
     </section>
 
-    <section class="top-coins">
-      <h1 class="text-center color-yellow mb-1">Top Coins</h1>
-      <div class="flex-container flex-horizontal" id="coins_container"></div>
+    <section class="ml-5 mr-5">
+      <h1 class="color-yellow mb-1 mt-1">Price History</h1>
+      <canvas id="myChart" width="100" height="25"></canvas>
     </section>
 
     <footer>
@@ -56,7 +50,8 @@
       </a>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
     <script src="./Assets/js/common.js"></script>
-    <script src="./Assets/js/index.js"></script>
+    <script src="./Assets/js/detail.js"></script>
   </body>
 </html>

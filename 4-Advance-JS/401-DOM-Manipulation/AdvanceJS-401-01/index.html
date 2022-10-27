@@ -11,13 +11,12 @@
         height: 400px;
         margin: 100px auto;
         text-align: center;
-        border: 2px solid black;
         padding: 100px;
       }
       input {
         width: 300px;
         height: 40px;
-        border: 2px solid rgb(86, 54, 71);
+        border: 2px solid aqua;
         padding: 5px 10px;
         font-size: 30px;
       }
@@ -33,7 +32,12 @@
   </head>
   <body>
     <div class="container">
-      <input type="text" onkeyup="fnGetValues()" id="textbox" />
+      <input
+        type="text"
+        onkeyup="fnGetValues()"
+        id="textbox"
+        placeholder="Write Something Here"
+      />
       <p class="wrote" id="wrote"></p>
     </div>
 

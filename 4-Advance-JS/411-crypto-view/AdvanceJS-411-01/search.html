@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Crypto-view</title>
     <link rel="stylesheet" href="./Assets/css/common.css" />
-    <link rel="stylesheet" href="./Assets/css/index.css" />
+    <link rel="stylesheet" href="./Assets/css/search.css" />
     <link rel="shortcut icon" href="../image/logo.png" type="image/png" />
   </head>
   <body>
@@ -16,31 +16,18 @@
       <button class="f-right nav-button" id="nav-search-button">Search</button>
     </nav>
 
-    <section>
-      <div class="container mt-5">
-        <div class="flex-container">
-          <div class="flex-item">
-            <div class="ml-10">
-              <h1>CryptoView</h1>
-              <p>
-                A platform to view information about all cryptocurrencies live.
-              </p>
-            </div>
-          </div>
-          <div class="flex-item">
-            <img
-              src="../image/crypto-removebg-preview.png"
-              alt="cryptoImage"
-              class="main-img"
-            />
-          </div>
-        </div>
+    <section class="mt-1">
+      <h1 class="color-yellow text-center">Search</h1>
+      <div class="search-input-container mt-1">
+        <form action="" method="GET">
+          <input type="text" placeholder="Enter Coin Name..." name="q" />
+          <input type="submit" value="Search" />
+        </form>
       </div>
-    </section>
 
-    <section class="top-coins">
-      <h1 class="text-center color-yellow mb-1">Top Coins</h1>
-      <div class="flex-container flex-horizontal" id="coins_container"></div>
+      <hr />
+
+      <div class="search-result-container mt-1" id="search-result"></div>
     </section>
 
     <footer>
@@ -57,6 +44,6 @@
     </footer>
 
     <script src="./Assets/js/common.js"></script>
-    <script src="./Assets/js/index.js"></script>
+    <script src="./Assets/js/search.js"></script>
   </body>
 </html>

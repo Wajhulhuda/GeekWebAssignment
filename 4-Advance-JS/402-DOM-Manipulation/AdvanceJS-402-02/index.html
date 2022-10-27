@@ -4,9 +4,44 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Add Image by Onclick</title>
+    <style>
+      .container,
+      .getImage {
+        width: 50%;
+        margin: 50px auto;
+        text-align: center;
+      }
+      .container h1 {
+        color: green;
+      }
+      .container p {
+        font-weight: 600;
+      }
+    </style>
   </head>
   <body>
-    Start your code here
+    <div class="container">
+      <h1>Geekster</h1>
+      <p>Click on the button to add image element</p>
+      <button id="click">Click here</button>
+    </div>
+    <div id="show" class="getImage"></div>
+    <script>
+      document.getElementById("click").addEventListener("click", showImage);
+      let heading = document.createElement("h1");
+      let image = document.createElement("img");
+
+      function showImage() {
+        let main = document.getElementById("show");
+        heading.innerHTML = "Image Element Added.";
+        heading.style.color = "green";
+
+        image.src = "../image/logo.svg";
+
+        main.appendChild(heading);
+        main.appendChild(image);
+      }
+    </script>
   </body>
 </html>
