@@ -5,8 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    Start your code here
+    <div class="background">
+      <div class="card">
+        <div class="title">
+          <h1>Charles' Tip Calculator</h1>
+        </div>
+        <hr />
+        <div class="main">
+          <p>How much was your bill?</p>
+          <form id="Tip_form">
+            <label for="bill">$</label>
+            <input type="number" placeholder="Amount" id="bill" />
+            <p>How was your service?</p>
+            <select name="service" id="service">
+              <option value="">--Choose an option--</option>
+              <option value="0.3">30% - Outstanding</option>
+              <option value="0.2">20% - Good</option>
+              <option value="0.15">15% - It was okay</option>
+              <option value="0.1">10% - Bad</option>
+              <option value="0.05">5% - Terrible</option>
+            </select>
+            <p>How many people was sharing bill?</p>
+            <input type="number" placeholder="How many?" id="people" />
+            <label for="people">People</label>
+            <p id="warning"></p>
+            <button id="submit">CALCULATE!</button>
+          </form>
+
+          <div class="result">
+            <p>TIP AMOUNT</p>
+            <h1 id="result">$0.00</h1>
+            <p>each</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
   </body>
 </html>

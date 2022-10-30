@@ -61,25 +61,25 @@ How to use this repository
 
 # ADVANCED-JS
 
-| S No. | Topic | Assignment                                                                                  | Hosted Link |
-| ----- | ----- | ------------------------------------------------------------------------------------------- | ----------- |
-| 1     | JS    | [DOM-MANIPULATION-1](./4-Advance-JS/401-DOM-Manipulation/) [AdvanceJS-401-01]               |             |
-| 1     | JS    | [DOM-MANIPULATION-1](./4-Advance-JS/401-DOM-Manipulation/) [AdvanceJS-401-02]               |             |
-| 1     | JS    | [DOM-MANIPULATION-1](./4-Advance-JS/401-DOM-Manipulation/) [AdvanceJS-401-03]               |             |
-| 2     | JS    | [DOM-MANIPULATION-2](./4-Advance-JS/402-DOM-Manipulation/) [AdvanceJS-402-01]               |             |
-| 2     | JS    | [DOM-MANIPULATION-2](./4-Advance-JS/402-DOM-Manipulation/) [AdvanceJS-402-02]               |             |
-| 3     | JS    | [EVENT-LISTNERS](./4-Advance-JS/403-Event-Listeners/) [AdvanceJS-403-01]                    |             |
-| 3     | JS    | [EVENT-LISTNERS](./4-Advance-JS/403-Event-Listeners/) [AdvanceJS-403-02]                    |             |
-| 3     | JS    | [EVENT-LISTNERS](./4-Advance-JS/403-Event-Listeners/) [AdvanceJS-403-03]                    |             |
-| 4     | JS    | [MINI-PROJECT](./4-Advance-JS/404-Mini-Project-Solar%20System/) [AdvanceJS-404-01]          |             |
-| 5     | JS    | [WORLD-COUNTRIES](./4-Advance-JS/405-WorldCountries-Data-Visualization/) [AdvanceJS-405-01] |             |
-| 6     | JS    | [DOM-VISUALATION](./4-Advance-JS/406-Data-visualization/) [AdvanceJS-406-01]                |             |
-| 7     | JS    | [EMOJI-SEARCH](./4-Advance-JS/407-Emoji-search/) [AdvanceJS-407-01]                         |             |
-| 8     | JS    | [LEADERBOARD](./4-Advance-JS/408-leaderboard/) [AdvanceJS-408-01]                           |             |
-| 9     | JS    | [FROM-VALIDATION](./4-Advance-JS/409-form-validation/) [AdvanceJS-409-01]                   |             |
-| 10    | JS    | [PROJECTS](./4-Advance-JS/410-Projects/) [AdvanceJS-410-01]                                 |             |
-| 10    | JS    | [PROJECTS](./4-Advance-JS/410-Projects/) [AdvanceJS-410-02]                                 |             |
-| 10    | JS    | [PROJECTS](./4-Advance-JS/410-Projects/) [AdvanceJS-410-03]                                 |             |
-| 10    | JS    | [PROJECTS](./4-Advance-JS/410-Projects/) [AdvanceJS-410-04]                                 |             |
-| 10    | JS    | [PROJECTS](./4-Advance-JS/410-Projects/) [AdvanceJS-410-05]                                 |             |
-| 11    | JS    | [CRYPTO-VIEW](./4-Advance-JS/411-crypto-view/) [AdvanceJS-411-01]                           |             |
+| S No. | Topic | Assignment                                                                                  | Hosted Link                                                                                                  |
+| ----- | ----- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| 1     | JS    | [DOM-MANIPULATION-1](./4-Advance-JS/401-DOM-Manipulation/) [AdvanceJS-401-01]               | https://wajhulhuda.github.io/GeekWebAssignment/4-Advance-JS/401-DOM-Manipulation/AdvanceJS-401-01/index.html |
+| 1     | JS    | [DOM-MANIPULATION-1](./4-Advance-JS/401-DOM-Manipulation/) [AdvanceJS-401-02]               | https://wajhulhuda.github.io/GeekWebAssignment/4-Advance-JS/401-DOM-Manipulation/AdvanceJS-401-02/index.html |
+| 1     | JS    | [DOM-MANIPULATION-1](./4-Advance-JS/401-DOM-Manipulation/) [AdvanceJS-401-03]               | https://wajhulhuda.github.io/GeekWebAssignment/4-Advance-JS/401-DOM-Manipulation/AdvanceJS-401-03/index.html |
+| 2     | JS    | [DOM-MANIPULATION-2](./4-Advance-JS/402-DOM-Manipulation/) [AdvanceJS-402-01]               | https://wajhulhuda.github.io/GeekWebAssignment/4-Advance-JS/402-DOM-Manipulation/AdvanceJS-402-01/index.html |
+| 2     | JS    | [DOM-MANIPULATION-2](./4-Advance-JS/402-DOM-Manipulation/) [AdvanceJS-402-02]               | https://wajhulhuda.github.io/GeekWebAssignment/4-Advance-JS/402-DOM-Manipulation/AdvanceJS-402-02/index.html |
+| 3     | JS    | [EVENT-LISTNERS](./4-Advance-JS/403-Event-Listeners/) [AdvanceJS-403-01]                    |                                                                                                              |
+| 3     | JS    | [EVENT-LISTNERS](./4-Advance-JS/403-Event-Listeners/) [AdvanceJS-403-02]                    |                                                                                                              |
+| 3     | JS    | [EVENT-LISTNERS](./4-Advance-JS/403-Event-Listeners/) [AdvanceJS-403-03]                    |                                                                                                              |
+| 4     | JS    | [MINI-PROJECT](./4-Advance-JS/404-Mini-Project-Solar%20System/) [AdvanceJS-404-01]          |                                                                                                              |
+| 5     | JS    | [WORLD-COUNTRIES](./4-Advance-JS/405-WorldCountries-Data-Visualization/) [AdvanceJS-405-01] |                                                                                                              |
+| 6     | JS    | [DOM-VISUALATION](./4-Advance-JS/406-Data-visualization/) [AdvanceJS-406-01]                |                                                                                                              |
+| 7     | JS    | [EMOJI-SEARCH](./4-Advance-JS/407-Emoji-search/) [AdvanceJS-407-01]                         |                                                                                                              |
+| 8     | JS    | [LEADERBOARD](./4-Advance-JS/408-leaderboard/) [AdvanceJS-408-01]                           |                                                                                                              |
+| 9     | JS    | [FROM-VALIDATION](./4-Advance-JS/409-form-validation/) [AdvanceJS-409-01]                   |                                                                                                              |
+| 10    | JS    | [PROJECTS](./4-Advance-JS/410-Projects/) [AdvanceJS-410-01]                                 |                                                                                                              |
+| 10    | JS    | [PROJECTS](./4-Advance-JS/410-Projects/) [AdvanceJS-410-02]                                 |                                                                                                              |
+| 10    | JS    | [PROJECTS](./4-Advance-JS/410-Projects/) [AdvanceJS-410-03]                                 |                                                                                                              |
+| 10    | JS    | [PROJECTS](./4-Advance-JS/410-Projects/) [AdvanceJS-410-04]                                 |                                                                                                              |
+| 10    | JS    | [PROJECTS](./4-Advance-JS/410-Projects/) [AdvanceJS-410-05]                                 |                                                                                                              |
+| 11    | JS    | [CRYPTO-VIEW](./4-Advance-JS/411-crypto-view/) [AdvanceJS-411-01]                           |                                                                                                              |

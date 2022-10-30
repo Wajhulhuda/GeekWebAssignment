@@ -4,9 +4,59 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Show Keyboard Keys</title>
+    <style>
+      body {
+        text-shadow: 2px 2px 2px gray;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      .container {
+        text-align: center;
+        width: 450px;
+        margin: 15% auto;
+        box-shadow: 0px 0px 5px black;
+        padding: 5px 10px;
+      }
+      span {
+        color: green;
+      }
+      #code {
+        text-align: center;
+        width: 100px;
+        margin-bottom: 10%;
+        margin: -13% auto;
+        color: green;
+        padding: 0px 4px 0px 4px;
+      }
+      .love {
+        box-shadow: 0px 0px 5px black;
+      }
+      #code p {
+        font-size: 60px;
+        padding: 40px 5px;
+        border-radius: 5px;
+      }
+    </style>
   </head>
-  <body>
-    Start your code here
+  <body onkeydown="getingkeys(event)">
+    <div class="container">
+      <h1 id="heading">Press Any Keyboard Key</h1>
+    </div>
+    <div id="code"></div>
+
+    <script>
+      let main = document.getElementById("main");
+      let div = document.createElement("div");
+      let h1 = document.createElement("h1");
+
+      let getingkeys = (e) => {
+        let container = document.getElementById("heading");
+        let c = document.getElementById("code");
+
+        container.innerHTML = `You pressed <span>${e.key}</span><br>`;
+        c.innerHTML = `<p>${e.keyCode}</p>`;
+        c.className = "love";
+      };
+    </script>
   </body>
 </html>
