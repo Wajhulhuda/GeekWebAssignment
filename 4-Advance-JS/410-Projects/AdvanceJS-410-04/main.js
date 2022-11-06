@@ -2,7 +2,7 @@ function getData(e) {
   e.preventDefault();
   let search = document.getElementById("search").value;
   fetch(
-    `http://api.openweathermap.org/geo/1.0/direct?q=${search}&limit=5&appid=74d744fe209ce0689f98052c2dc882c7`
+    `https://api.openweathermap.org/geo/1.0/direct?q=${search}&limit=5&appid=74d744fe209ce0689f98052c2dc882c7`
   )
     .then(convertToJSON)
     .then(showWeather);
