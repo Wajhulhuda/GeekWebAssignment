@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body, h1, h2, h3, h4, h5, h6, p,a {
+    margin: 0px;
+    padding: 0px;
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    text-decoration: none;
+ }
+
+ .container{
+    width: 80%;
+    margin: 10px auto;
+ }
+ header{
+    display: flex;
+    justify-content: space-between;
+ }
+ .logo{
+    display: flex;
+    align-items: center;
+    
+ }
+ .fa-github{
+    margin-right: 5px;
+    font-size: 20px;
+ }
+ .navbar a{
+    margin-left:10px ;
+    
+ }
+ .stalk{
+    width: 50%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .let{
+    margin-bottom: 10px;
+ }
+ .fom{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    border: 2px solid rgb(100, 99, 99);
+    border-radius: 5px;
+ }
+ .fom input{
+    width: 92%;
+    height: 35px;
+    font-size: 20px;
+    padding: 0px 5px;
+    border: none;
+    outline: none;
+    border-radius: 5px 0px 0px 5px;
+ }
+ .fom button{
+    height: 35px;
+    width: 70px;
+    padding: 0px 5px;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    outline: none;
+    background-color: black;
+    color: whitesmoke;
+    cursor: pointer;
+ }
+
+ .result{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+ }
+ .items{
+    display: flex;
+    width: 24%;
+    align-items: center;
+    margin-bottom: 20px;
+
+ }
+ .items .img{
+    width: 22%;
+    
+ }
+ .items img{
+    width: 50px;
+     height: 50px;
+     border-radius: 50%;
+ }
+ .name{
+    display: flex;
+    flex-direction: column;
+ }
+ .profile{
+    font-size: 12px;
+    color: rgb(117, 116, 116);
+ }

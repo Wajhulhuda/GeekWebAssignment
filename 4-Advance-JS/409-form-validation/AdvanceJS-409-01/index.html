@@ -4,9 +4,53 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Validating Web Form</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    Start your code here
+    <p class="heading">Validating Web Forms</p>
+    <div class="container">
+      <form id="submit">
+        <div class="item">
+          <label for="fname">First Name</label><br />
+          <input type="text" id="fname" name="fname" class="fname" /><br />
+          <p class="warning" id="firstWarning"></p>
+        </div>
+
+        <div class="item">
+          <label for="lname">Last Name</label><br />
+          <input type="text" id="lname" name="lname" class="lname" /><br />
+          <p class="warning" id="lasterror"></p>
+        </div>
+
+        <div class="item">
+          <label for="email">Email</label><br />
+          <input type="email" id="email" name="email" class="email" /><br />
+          <p class="warning" id="emailerror"></p>
+        </div>
+
+        <div class="item">
+          <label for="pass">Password</label><br />
+          <input type="password" id="pass" name="pass" class="pass" /><br />
+          <p class="warning" id="passerror"></p>
+        </div>
+
+        <div class="item">
+          <label for="phone">Telephone</label><br />
+          <input type="tel" id="phone" name="phone" class="phone" /><br />
+          <p class="warning" id="telephoneerror"></p>
+        </div>
+
+        <div class="item">
+          <label for="bio">Your Bio</label><br />
+          <input type="text" id="bio" name="bio" class="bio" /><br />
+          <p class="warning" id="bioerror"></p>
+        </div>
+
+        <input type="submit" id="sub" class="sub" />
+      </form>
+    </div>
+
+    <script src="main.js"></script>
   </body>
 </html>

@@ -5,8 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    Start your code here
+    <header>
+      <div class="container">
+        <div class="wrapper">
+          <div class="banner">
+            <p class="heading">World Countries List</p>
+            <p class="p">Total Number of countries: 193</p>
+            <p>
+              Countries start with <span class="letter" id="charac"></span> are
+              <span class="total" id="len"></span> .
+            </p>
+            <div class="btn">
+              <button id="starting-btn" onclick="changeColor(event)">
+                Starting Word
+              </button>
+              <button id="searchBtn" onclick="changeColo(event)">
+                Search with any word
+              </button>
+              <button onclick="changearrow()" class="atoz" id="az">
+                <i class="fa-solid fa-arrow-down-a-z"></i>
+              </button>
+            </div>
+            <div class="input">
+              <input
+                type="text"
+                placeholder="Search Countries..."
+                id="getInput"
+              /><i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main id="main-div"></main>
+
+    <script src="./countries.js"></script>
+    <script src="./main.js"></script>
   </body>
 </html>

@@ -2,11 +2,32 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Emoji Search Application</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    Start your code here
+    <div class="container mt-3">
+      <h1>Emojee - Emoji 🔍 Application</h1>
+      <br />
+      <hr />
+      <form id="search_form" class="mt-2">
+        <input
+          type="text"
+          autocomplete="off"
+          placeholder="Emojee Search"
+          id="search_field"
+        />
+        <input type="submit" value="Search" />
+      </form>
+      <br />
+      <br />
+      <table>
+        <tbody id="search_result_container"></tbody>
+      </table>
+    </div>
+    <script src="./emojiList.js"></script>
+    <script src="./main.js"></script>
   </body>
 </html>
